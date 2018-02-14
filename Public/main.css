@@ -1,0 +1,29 @@
+body{
+	padding-top: 50px;
+}
+
+#headerWrapper{
+position: relative;
+padding: 0;
+margin: 0;
+overflow: hidden;
+height: 600px;
+background-image: url("/img/joystick.png");
+background-repeat: no-repeat;
+background-size: 100% 700px; 
+background-position:topcenter;
+background-attachment: fixed;
+}
+
+#logotext{
+	position: absolute
+	width: 100%;
+	height: 180px;
+	background-image: url("/img/joystick.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70% 180px;
+	top: 50%
+	
+	
+}

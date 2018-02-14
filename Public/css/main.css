@@ -1,0 +1,56 @@
+body{
+	padding-top: 50px;
+}
+
+#headerWrapper{
+position: relative;
+padding: 0;
+margin: 0;
+overflow: hidden;
+height: 600px;
+background-image: url("../img/joystick.png");
+background-repeat: no-repeat;
+background-size: 100% 700px; 
+background-position:top center;
+background-attachment: fixed;
+}
+
+#logotext{
+	position: absolute
+	width: 100%;
+	height: 180px;
+	background-image: url("../img/Wii_Remote.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70% 180px;
+	top: 50%;
+	margin-top:-90px;
+	
+}
+
+#logoimage{
+	position: absolute;
+	width: 100%;
+	height: 350px;
+	background-image: url(../img/xbox.png);
+	background-size: auto 350px; 
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	top:400px;
+	right: -50px;
+	
+}
+
+#nremote{
+	position: absolute;
+	width: 100%;
+	height: 350px;
+	background-image: url(../img/GameCube.png);
+	background-size: auto 350px; 
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	top:400px;
+	left:-25px;
+	
+	
+}
