@@ -51,6 +51,70 @@
 		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
 			Details</button>
 		</div>
+		
+		<div class="col-md-3">
+		<h4>GTA5</h4>
+		<img src="img/gta5.png" alt="GTA5" />
+		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
+		<p class="price">Our Price $34.99</p>
+		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
+			Details</button>
+		</div>
+		
+		<div class="col-md-3">
+		<h4>GTA5</h4>
+		<img src="img/gta5.png" alt="GTA5" />
+		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
+		<p class="price">Our Price $34.99</p>
+		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
+			Details</button>
+		</div>
+		
+		<div class="col-md-3">
+		<h4>GTA5</h4>
+		<img src="img/gta5.png" alt="GTA5" />
+		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
+		<p class="price">Our Price $34.99</p>
+		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
+			Details</button>
+		</div>
+		
+		<div class="col-md-3">
+		<h4>GTA5</h4>
+		<img src="img/gta5.png" alt="GTA5" />
+		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
+		<p class="price">Our Price $34.99</p>
+		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
+			Details</button>
+		</div>
+		
+		<div class="col-md-3">
+		<h4>GTA5</h4>
+		<img src="img/gta5.png" alt="GTA5" />
+		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
+		<p class="price">Our Price $34.99</p>
+		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
+			Details</button>
+		</div>
+		
+		<div class="col-md-3">
+		<h4>GTA5</h4>
+		<img src="img/gta5.png" alt="GTA5" />
+		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
+		<p class="price">Our Price $34.99</p>
+		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
+			Details</button>
+		</div>
+		
+		<div class="col-md-3">
+		<h4>GTA5</h4>
+		<img src="img/gta5.png" alt="GTA5" />
+		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
+		<p class="price">Our Price $34.99</p>
+		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
+			Details</button>
+		</div>
+
 			</div>
 	</div>
 	
