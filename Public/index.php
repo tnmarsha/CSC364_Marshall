@@ -1,145 +1,90 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title> Trizzles Gaming </title>
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/main.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src = "js/bootstrap.min.js"> </script>
-	</head>
-	<body>
-		<!-- Top Nav Bar -->
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-				<a href="index.php" class="navbar-brand"> Trizzles Gaming </a>
-				<ul class="nav navbar-nav">
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">PS4<span class="caret"></span></a>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="#">Games</a></li>
-							<li><a href="#">Deals</a></li>
-							<li><a href="#">Accessories</a></li>
-						</ul>
-					</li>
-				</ul>
+<?php
+	require_once 'core/init.php';
+	include 'includes/head.php';
+	include 'includes/navagation.php';
+	include 'includes/headerfull.php';
+	include 'includes/leftbar.php';
+	?>
+			<!--main content -->
+			<div class="col-md-8"> 
+				<div class="row">
+					<h2 class="text-center">Featured Products</h2>
+					<div class="col-sm-3 text-center">
+						<h4>GTA5</h4>
+						<img src="img/gta5.png" alt="GTA5" class="img-thumb"/>
+						<p class="list-price text-danger"> List Price <s>$59.99</s></p>
+						<p class="price">Our Price $34.99</p>
+						<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-1">
+						Details</button>
+					</div>
+					<div class="col-sm-3 text-center"> 
+					<h4>PS4</h4>
+					<img src="img/PS4.jpg" alt="PS4" class="img-thumb"/>
+					<p class="list-price text-danger"> List Price <s>$59.99</s></p>
+					<p class="price">Our Price $34.99</p>
+					<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-1">
+					Details</button>
+				</div>
+				
+				<div class="col-sm-3 text-center"> 
+					<h4>WiiU</h4>
+					<img src="img/WiiU.png" alt="WiiU" class="img-thumb" />
+					<p class="list-price text-danger"> List Price <s>$175.00</s></p>
+					<p class="price">Our Price $95.00</p>
+					<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
+					Details</button>
+				</div>
+				
+				<div class="col-sm-3 text-center"> 
+					<h4>PlaystationVR</h4>
+					<img src="img/VR.jpg" alt="PlaystationVR" class="img-thumb"/>
+					<p class="list-price text-danger"> List Price <s>$200.00</s></p>
+					<p class="price">Our Price $100.00</p>
+					<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
+					Details</button>
+				</div>
+				
+				<div class="col-sm-3 text-center"> 
+					<h4>xboxOne</h4>
+					<img src="img/xbox1.png" alt="xboxOne" class="img-thumb"/>
+					<p class="list-price text-danger"> List Price <s>$250.00</s></p>
+					<p class="price">Our Price $185.00</p>
+					<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
+					Details</button>
+				</div>
+				
+				<div class="col-sm-3 text-center"> 
+					<h4>switch</h4>
+					<img src="img/switch.png" alt="switch" class="img-thumb"/>
+					<p class="list-price text-danger"> List Price <s>$300.00</s></p>
+					<p class="price">Our Price $200.00</p>
+					<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
+					Details</button>
+				</div>
+				
+				<<div class="col-sm-3 text-center"> 
+					<h4>gamecube</h4>
+					<img src="img/gamecube1.png" alt="gamecube" class="img-thumb"/>
+					<p class="list-price text-danger"> List Price <s>$100.00</s></p>
+					<p class="price">Our Price $50.00</p>
+					<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
+					Details</button>
+				</div>
+				
+				<div class="col-sm-3 text-center"> 
+					<h4>Asus</h4>
+					<img src="img/Asus.png" alt="Asus" class="img-thumb"/>
+					<p class="list-price text-danger"> List Price <s>$500.00</s></p>
+					<p class="price">Our Price $300.00</p>
+					<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
+					Details</button>
+				</div>
 			</div>
-		</nav>
-		
-		<!-- Header -->
-		<div id="headerWrapper">
-			<div id="back=flower"></div>
-			<div id="logotext"></div>
-			<div id="logoimage"></div>
-			<div id="nremote"> </div>
 		</div>
 		
-		<!-- //////bootstrapclass that alows everything to be responsive ///  -->
-<div class="container-fluid">
-	<!--left side bar -->
-	<div class = "col-md-2"> Left Side Bar </div>
-	
-	<!--main content -->
-	<div class="col-md-8"> Main 
-		<div class="row">
-		<h2 class="text-center">Featured Products</h2>
-		<div class="col-md-3">
-		<h4>GTA5</h4>
-		<img src="img/gta5.png" alt="GTA5" />
-		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
-		<p class="price">Our Price $34.99</p>
-		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
-			Details</button>
-		</div>
+		<?php
+        include 'includes/detailmodal.php';
+		include 'includes/rightbar.php';
+		include 'includes/footer.php';
 		
-		<div class="col-md-3">
-		<h4>GTA5</h4>
-		<img src="img/gta5.png" alt="GTA5" />
-		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
-		<p class="price">Our Price $34.99</p>
-		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
-			Details</button>
-		</div>
-		
-		<div class="col-md-3">
-		<h4>GTA5</h4>
-		<img src="img/gta5.png" alt="GTA5" />
-		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
-		<p class="price">Our Price $34.99</p>
-		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
-			Details</button>
-		</div>
-		
-		<div class="col-md-3">
-		<h4>GTA5</h4>
-		<img src="img/gta5.png" alt="GTA5" />
-		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
-		<p class="price">Our Price $34.99</p>
-		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
-			Details</button>
-		</div>
-		
-		<div class="col-md-3">
-		<h4>GTA5</h4>
-		<img src="img/gta5.png" alt="GTA5" />
-		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
-		<p class="price">Our Price $34.99</p>
-		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
-			Details</button>
-		</div>
-		
-		<div class="col-md-3">
-		<h4>GTA5</h4>
-		<img src="img/gta5.png" alt="GTA5" />
-		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
-		<p class="price">Our Price $34.99</p>
-		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
-			Details</button>
-		</div>
-		
-		<div class="col-md-3">
-		<h4>GTA5</h4>
-		<img src="img/gta5.png" alt="GTA5" />
-		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
-		<p class="price">Our Price $34.99</p>
-		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
-			Details</button>
-		</div>
-		
-		<div class="col-md-3">
-		<h4>GTA5</h4>
-		<img src="img/gta5.png" alt="GTA5" />
-		<p class="list-price text-danger"> List Price <s>$59.99</s></p>
-		<p class="price">Our Price $34.99</p>
-		<button type = "button" class="btn btn-sm btn-success" data-toggle="modal" data-target="details-1">
-			Details</button>
-		</div>
-
-			</div>
-	</div>
-	
-	<!--right side bar-->
-	<div class="col-md-2"> Right Side Bar </div>
-</div>
-		
-		<script> 
-			jQuery(window).scroll(function(){
-				var vscroll = jQuery(this).scrollTop();
-				
-				jQuery('#logotext').css({
-					"transform" : "translate(0px, "+vscroll/2+"px)"
-				});
-				
-				var vscroll = jQuery(this).scrollTop();
-				jQuery('#logoimage').css({
-					"transform" : "translate("+vscroll/5+"0x, -"+vscroll/12+"px)"
-				});
-				
-				var vscroll = jQuery(this).scrollTop();
-				jQuery('#nremote').css({
-					"transform" : "translate(0px, -"+vscroll/2+"px)"
-				});
-			});
-		</script>
-	</body>
-</html
+?>

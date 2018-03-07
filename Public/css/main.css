@@ -54,3 +54,15 @@ background-attachment: fixed;
 	
 	
 }
+.img-thumb{
+	width:auto;
+	Height: 200px;
+}
+#footer{
+	margin-top:50px;
+}
+
+img.detail{
+	width: 33%;
+	margin: 15px auto;	
+}
