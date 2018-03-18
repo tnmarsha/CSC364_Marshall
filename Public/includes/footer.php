@@ -21,6 +21,21 @@
 					"transform" : "translate(0px, -"+vscroll/2+"px)"
 				});
 			});
+			function detailsmodal(id){
+				var data = {"id" : id};
+				jQuery.ajax({
+					url: '/includes/detailmodal.php',
+					method : "post",
+					data : data,
+					success: function(data){
+						jQuery('body').append(data);
+						JQuery('#details-modal').modal('toggle');
+						},
+					error: function(){
+						alert("Something Went Wrong");
+						}
+					});
+			}
 		</script>
 	</body>
 </html>
