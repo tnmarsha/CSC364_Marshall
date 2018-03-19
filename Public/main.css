@@ -27,3 +27,7 @@ background-attachment: fixed;
 	
 	
 }
+.table-auto{
+	width: auto ;
+	margin: 0 auto;
+}

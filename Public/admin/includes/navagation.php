@@ -1,7 +1,6 @@
-<!-- Top Nav Bar -->
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
-				<a href="index.php" class="navbar-brand"> Trizzles Gaming Admin</a>
+<!--help -->			<a href="/csc364/public/admin/index.php" class="navbar-brand"> Trizzles Gaming Admin </a>
 				<ul class="nav navbar-nav">
 			
 				<!-- Menu Items -->
@@ -12,6 +11,5 @@
 						<
 						</ul>
 					</li> -->
-				</ul>
 			</div>
 		</nav>
