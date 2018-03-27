@@ -1,6 +1,6 @@
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container">
-<!--help -->			<a href="/csc364/public/admin/index.php" class="navbar-brand"> Trizzles Gaming Admin </a>
+<a href="/public/admin/" class="navbar-brand"> Trizzles Gaming Admin </a>
 				<ul class="nav navbar-nav">
 			
 				<!-- Menu Items -->

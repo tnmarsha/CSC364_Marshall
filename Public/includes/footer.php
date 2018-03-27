@@ -2,7 +2,7 @@
 <div class="col-md-12 text-center">&copy; Copyright 2017-2018 Trizzles Gaming</div>
 	
 
-		
+		<!--help-->
 		<script> 
 			jQuery(window).scroll(function(){
 				var vscroll = jQuery(this).scrollTop();
@@ -24,12 +24,12 @@
 			function detailsmodal(id){
 				var data = {"id" : id};
 				jQuery.ajax({
-					url: '/includes/detailmodal.php',
+					url: '/Public/includes/detailmodal.php',
 					method : "post",
 					data : data,
 					success: function(data){
 						jQuery('body').append(data);
-						JQuery('#details-modal').modal('toggle');
+						jQuery('#details-modal').modal('toggle');
 						},
 					error: function(){
 						alert("Something Went Wrong");

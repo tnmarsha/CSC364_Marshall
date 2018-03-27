@@ -37,7 +37,7 @@
 								<p><?= $product['description']; ?></p>
 								<hr>
 								<p>price: $<?= $product['price']; ?></p>
-								<p>Brand: $<?= $brand['brand']; ?></p>
+								<p>Brand: <?= $brand['brand']; ?></p>
 								<form action="add_cart.php" method="post">
 									<div class="form-group">
 										<div class="col-xs-3">
