@@ -1,7 +1,7 @@
 	<?php
-	/// Grabing everything from category where paren = 0 
+	/// Grabing everything from category where parent = 0 
 	$sql = "SELECT * FROM categories WHERE parent = 0";
-	/// using databse object to run our sql statment above.
+	/// using database object to run our sql statment above.
 	$pquery = $db->query($sql);
 	?>
 	
@@ -22,11 +22,12 @@
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $parent['category'];?><span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
 						<?php while ($child = mysqli_fetch_assoc($cquery)) : ?>
-							<li><a href="#"><?php echo $child['category'];?></a></li>
+							<li><a href="category.php?cat=<?=$child['id'];?>"><?php echo $child['category'];?></a></li>
 							<?php endwhile; ?>
 						</ul>
 					</li>
 					<?php endwhile; ?>
+					<li><a href="cart.php"><span class="glyphicon glyphicon-shopping-cart"></span> My Cart</a></li>
 				</ul>
 			</div>
 		</nav>

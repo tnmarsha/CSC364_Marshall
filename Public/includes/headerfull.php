@@ -1,6 +1,6 @@
 	<!-- Header Logo -->
 		<div id="headerWrapper">
-			<div id="back=flower"></div>
+			<div id="backflower"></div>
 			<div id="logotext"></div>
 			<div id="logoimage"></div>
 			<div id="nremote"> </div>
