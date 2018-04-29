@@ -54,7 +54,7 @@
 		jQuery('#modal_errors').html("");
 		var size = jQuery('#system').val();
 		var quantity = jQuery('#quantity').val();
-		var available = parseInt(jQuery('#available').val()); 
+		var available = jQuery('#available').val(); 
 		var error = '';
 		var data = jQuery('#add_product_form').serialize();
 		if(system == '' || quantity == '' || quantity == 0){

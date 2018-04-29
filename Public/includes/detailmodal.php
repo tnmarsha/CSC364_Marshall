@@ -88,4 +88,3 @@
 		},500);
 	}
 </script>
-<?php echo ob_get_clean();?>

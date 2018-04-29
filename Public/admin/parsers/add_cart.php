@@ -18,7 +18,7 @@ $_SESSION['success_flash'] = $product['title']. 'was added to your cart.';
 
 //check to see if the cart cookie exist
 if($cart_id != ''){
-	$cartQ = $db->query("SELECT * FROM cart WHERE id ='{$cart_id}'");
+	$cartQ = $db->query("SELECT * FROM `cart` WHERE id ='{$cart_id}'");
     $cart = mysqli_fetch_assoc($cartQ);
     $previous_items = json_decode($cart['items'],true);
     $item_match = 0;
